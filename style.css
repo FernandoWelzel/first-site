@@ -1,0 +1,33 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: linear-gradient(aliceblue, gray);
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  height: 70vh;
+  margin: 5vh;
+  margin-top: 10vh;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
